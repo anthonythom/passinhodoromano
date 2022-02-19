@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="passinho.css">
+    <script src="./passinho.js" defer></script>
+    <title> Passinho do Romano </title>
+</head>
+
+<body>
+    <h1> Passinho do Romano </h1>
+    <div class="principal">
+        <img src="./passinhogif.gif" alt="">
+        <div class="divPai">
+            <form action="">
+
+
+
+
+
+                <p>Escreva uma mensagem:</p>
+                <input type="text" name="" id="text">
+
+
+                <div>
+                    <p> Escolha o tipo de código: </p>
+                    <select name="" id="choose">
+                        <option value="option"> Selecione Aqui </option>
+                        <option value="Cesar"> Cifra de Cesar </option>
+                        <option value="Base64"> Base64 </option>
+                    </select>
+                </div>
+                <br>
+                <div id="selectNumber">
+                    <p> Selecione um número: </p>
+                    <input type="number" min="1" max="25" id="imputNumber">
+                </div>
+                <div>
+                    <input type="radio" name="button" value="codificar" id="codificar">
+                    <label for="codificar"> Codificar </label>
+                    <br>
+                    <input type="radio" name="button" value="decodificar" id="decodificar">
+                    <label for="decodificar"> Decodificar </label>
+                </div>
+                <br>
+                <button class="button" type="submit" value="submit" id="submit"> Enviar texto! </button>
+                <div id="inserirCripto"></div>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer"> 
+        <footer>
+            <h2>© Anthony Thomas <a href="https://github.com/anthonythom">Github</a>
+                <a href="https://linkedin.com/in/anthonythomasmm">LinkedIn</a><h3>Resilia</h3>
+            </h2>
+        </footer>
+    </div>
+</body>
+
+</html>
